@@ -7,6 +7,7 @@ EXITCODE=0
 # see also https://github.com/lxc/lxc/blob/lxc-1.0.2/src/lxc/lxc-checkconfig.in
 
 possibleConfigs=(
+	'/home/xilinx/pynqz2.config.docker'
 	'/proc/config.gz'
 	"/boot/config-$(uname -r)"
 	"/usr/src/linux-$(uname -r)/.config"
