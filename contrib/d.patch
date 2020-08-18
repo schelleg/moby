@@ -1,0 +1,12 @@
+--- d_orig.sh	2020-08-18 18:23:00.093534130 +0000
++++ d.sh	2020-08-18 18:22:44.681782598 +0000
+@@ -348,6 +348,9 @@
+ 	# Check if this is a forked Linux distro
+ 	check_forked
+ 
++	lsb_dist=ubuntu
++	dist_version=bionic
++       
+ 	# Run setup for each distro accordingly
+ 	case "$lsb_dist" in
+ 		ubuntu|debian|raspbian)
